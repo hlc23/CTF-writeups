@@ -5,6 +5,9 @@
 
 [link](https://play.picoctf.org/practice/challenge/186)
 
+### Source
+[cat.jpg](./cat.jpg)
+
 ## Solution
 
 1. download `cat.jpg`
