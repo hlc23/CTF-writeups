@@ -59,3 +59,11 @@ tar [OPTIONS] [FILE]
 -v # 詳細模式
 -f # 指定壓縮檔案名稱
 ```
+
+## dd
+```bash
+dd if=[INPUT] of=[OUTPUT] [OPTIONS]
+```
+```bash
+dd if=image.png of=flag skip=100 bs=1
+```
