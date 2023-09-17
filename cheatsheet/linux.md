@@ -1,5 +1,22 @@
 # linux
 
+## echo
+```bash
+echo [OPTIONS] [STRING]
+```
+
+## base64
+```bash
+base64 [OPTIONS] [FILE]
+```
+```bash
+-d # 解碼
+```
+### decode string
+```bash
+echo [STRING] | base64 -d
+```
+
 ## find
 ```bash
 find [path] -name [name]
@@ -7,7 +24,7 @@ find [path] -name [name]
 
 ## ps
 列出系統上的所有進程，包括用戶進程和系統進程，以及與它們相關的詳細信息。
-```bash
+```shell
 ps aux
 ```
 
@@ -36,7 +53,6 @@ curl [OPTIONS] [URL]
     PUT
     DELETE
 -H # 指定請求頭
-
 ```
 request method
 ```bash
